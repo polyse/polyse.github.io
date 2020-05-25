@@ -4,13 +4,11 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>pse</title>
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
 		<link rel="stylesheet" href="dist/theme/black.css" id="theme">
-
-		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
 	</head>
 	<body>
@@ -58,8 +56,13 @@
 					</section>
 				</section>
 				<section>
-					<section>Техническое описание 🤖</section>
-					<section></section>
+					<section>
+						<h2>Техническое описание 🤖</h2>
+					</section>
+					<section data-background="#dddddd">
+						<p>Диаграмма проекта</p>
+						<img data-src="images/polyse.png">
+					</section>
 				</section>
 			</div>
 		</div>
@@ -69,13 +72,8 @@
 		<script src="plugin/markdown/markdown.js"></script>
 		<script src="plugin/highlight/highlight.js"></script>
 		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
 			Reveal.initialize({
 				hash: true,
-
-				// Learn about plugins: https://revealjs.com/plugins/
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
 			});
 		</script>
